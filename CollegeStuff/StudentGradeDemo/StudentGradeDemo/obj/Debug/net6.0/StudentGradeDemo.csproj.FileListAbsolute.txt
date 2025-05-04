@@ -1,0 +1,15 @@
+C:\Users\mattm\source\repos\StudentGradeDemo\StudentGradeDemo\bin\Debug\net6.0\StudentGradeDemo.exe
+C:\Users\mattm\source\repos\StudentGradeDemo\StudentGradeDemo\bin\Debug\net6.0\StudentGradeDemo.deps.json
+C:\Users\mattm\source\repos\StudentGradeDemo\StudentGradeDemo\bin\Debug\net6.0\StudentGradeDemo.runtimeconfig.json
+C:\Users\mattm\source\repos\StudentGradeDemo\StudentGradeDemo\bin\Debug\net6.0\StudentGradeDemo.dll
+C:\Users\mattm\source\repos\StudentGradeDemo\StudentGradeDemo\bin\Debug\net6.0\StudentGradeDemo.pdb
+C:\Users\mattm\source\repos\StudentGradeDemo\StudentGradeDemo\obj\Debug\net6.0\StudentGradeDemo.csproj.AssemblyReference.cache
+C:\Users\mattm\source\repos\StudentGradeDemo\StudentGradeDemo\obj\Debug\net6.0\StudentGradeDemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mattm\source\repos\StudentGradeDemo\StudentGradeDemo\obj\Debug\net6.0\StudentGradeDemo.AssemblyInfoInputs.cache
+C:\Users\mattm\source\repos\StudentGradeDemo\StudentGradeDemo\obj\Debug\net6.0\StudentGradeDemo.AssemblyInfo.cs
+C:\Users\mattm\source\repos\StudentGradeDemo\StudentGradeDemo\obj\Debug\net6.0\StudentGradeDemo.csproj.CoreCompileInputs.cache
+C:\Users\mattm\source\repos\StudentGradeDemo\StudentGradeDemo\obj\Debug\net6.0\StudentGradeDemo.dll
+C:\Users\mattm\source\repos\StudentGradeDemo\StudentGradeDemo\obj\Debug\net6.0\refint\StudentGradeDemo.dll
+C:\Users\mattm\source\repos\StudentGradeDemo\StudentGradeDemo\obj\Debug\net6.0\StudentGradeDemo.pdb
+C:\Users\mattm\source\repos\StudentGradeDemo\StudentGradeDemo\obj\Debug\net6.0\StudentGradeDemo.genruntimeconfig.cache
+C:\Users\mattm\source\repos\StudentGradeDemo\StudentGradeDemo\obj\Debug\net6.0\ref\StudentGradeDemo.dll
