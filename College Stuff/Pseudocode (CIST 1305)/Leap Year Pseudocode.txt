@@ -1,0 +1,39 @@
+// Main module
+Module main()
+// Declare local variables
+Declare Integer year
+
+// Prompts the user to input a year.
+Call getYear(year)
+
+// Runs a calculation to determine if the user inputted year is a leap year.
+Call determineLeap(year)
+End Module
+
+// A module that asks users to input any year in order to determine if it's a leap year.
+Module getYear(Integer Ref year)
+	Display "Input a year that you'd like to check if it's a leap year."
+	Input year
+End Module
+
+// A module in which it takes the inputted year, and runs a calculation to determine if it is a leap year.
+Module determineLeap(year)
+
+Constant Integer FYEAR = 4
+Constant Integer HYEAR = 100
+Constant Integer FOYEAR = 400
+
+If ((year Mod HYEAR) == 0 ) Then
+If ((year Mod FOYEAR) == 0 ) Then
+	Display year, " is a leap year."
+Else
+	Display year, " is not a leap year."
+End If
+Else
+If ((year Mod FYEAR) == 0 ) Then
+	Display year, " is a leap year."
+Else
+	Display year, " is not a leap year."
+End If
+End If
+End Module

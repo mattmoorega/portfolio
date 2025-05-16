@@ -1,0 +1,16 @@
+Declare OutputFile numberList
+Declare Integer index // Loop Counter
+Set index = 0
+Declare Integer numberTotal // Accumulator
+Set numberTotal = 0
+
+Open numberList "number_list.dat"
+
+While NOT eof(numberList)
+Read numberFile index
+Set numberTotal = numberTotal + index
+End While
+
+Display numberTotal
+
+Close numberList

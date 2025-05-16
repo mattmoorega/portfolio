@@ -1,0 +1,21 @@
+Problem 1
+
+Write a pseudocode declaration for a String array initialized with the following strings:
+"Einstein", "Newton", "Copernicus", and "Kepler".
+
+Answer
+
+Declare String[3] = "Einstein", "Newton", "Copernicus", "Kepler"
+
+------------
+
+Problem 2
+
+Assume names is an Integer array with 20 elements. Design a For loop that displays each
+element of the array.
+
+Answer
+
+For index = 1 To 20
+Display names[index]
+End For

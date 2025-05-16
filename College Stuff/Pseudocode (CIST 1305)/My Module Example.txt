@@ -1,0 +1,47 @@
+// Global Variables
+Constant Real COUNTY_TAX = 0.02
+Constant Real STATE_TAX = 0.04
+
+// Main Module
+Module main()
+// Local Variables
+Declare Real monthlySales, countyTax, stateTax
+
+// Get monthly sales
+Call acceptSales(monthlySales)
+
+// Calculates the county tax
+Call calculateCTax(monthlySales, countyTax)
+
+// Calculates the state tax
+Call calculateCTax(monthlySales, stateTax)
+
+// Displays the calculated taxes
+Call displayTax(monthlySales, countyTax, stateTax)
+End Module
+
+// Module to input the monthly sales
+Module acceptSales(Real Ref monthlySales)
+Display "Please enter the amount of sales the company has made this month."
+Input monthlySales
+End Module
+
+// Module to calculate county tax
+Module calculateCTax(Real Ref monthlySales, countyTax, COUNTY_TAX)
+Set countyTax = monthlySales * COUNTY_TAX
+End Module
+
+// Module to calculate state tax
+Module calculateSTax(Real Ref monthlySales, stateTax, STATE_TAX)
+set stateTax = monthlySales * STATE_TAX
+End Module
+
+// Module to display the calculated tax
+Module displayTax(monthlySales, countyTax, stateTax)
+Declare Real totalTax
+Set totalTax = stateTax + countyTax
+Display "Below are the taxes based off this months sales of ", monthlySales
+Display "State Tax: $", stateTax
+Display "County Tax: $", countyTax
+Display "Total Tax: $", totalTax
+End Module

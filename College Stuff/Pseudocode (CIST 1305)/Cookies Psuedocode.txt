@@ -1,0 +1,29 @@
+// Set our variables
+
+Declare Real sugar
+Declare Real butter
+Declare Real flour
+Declare Real cookieAmount
+
+// Set our constants
+
+Constant Real SUGAR_AMOUNT = 1.5 / 48
+Constant Real BUTTER_AMOUNT = 1.0 / 48
+Constant Real FLOUR_AMOUNT = 2.75 / 48
+
+// Enter amount of cookies
+
+Display "Please enter the amount of cookies you'd like to make."
+Input cookieAmount
+
+// Determine our ingredients
+
+Set sugar = cookieAmount * SUGAR_AMOUNT
+Set butter = cookieAmount * BUTTER_AMOUNT
+Set flour = cookieAmount * FLOUR_AMOUNT
+
+// Display final amount of ingredients
+Display "To make ", cookieAmount, " cookies, you'd need the following."
+Display "Cups of sugar: ", sugar
+Display "Cups of butter: ", butter
+Display "Cups of flour: ", flour

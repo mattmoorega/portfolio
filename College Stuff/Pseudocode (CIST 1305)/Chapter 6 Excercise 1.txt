@@ -1,0 +1,25 @@
+// A program that will determine the area of a rectangle depending on information entered by the user.
+Module main()
+// Declare local variables
+Declare Real length
+Declare Real width
+
+Call getDimensions(length, width)
+
+Call displayArea(length, width)
+End Module
+
+// A module that users are prompted to enter the dimensions of a rectangle.
+Module getDimensions(Real Ref length, Ref width)
+	Display "Please input the length of the rectangle"
+	Input length
+	Display "Please input the width of the rectangle"
+	Input width
+End Module
+
+// A module that determines the area of a rectangle using the dimensions previously inputted by the user.
+Module displayArea(width, length)
+Declare Real area
+	Set area = width * length
+	Display "The area of the rectangle in question is ", area
+End Module

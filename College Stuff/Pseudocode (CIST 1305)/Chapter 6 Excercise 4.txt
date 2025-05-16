@@ -1,0 +1,41 @@
+// A program that will take two numbers and determine which one is larger.
+
+Module main()
+// Declaring our local variables
+Declare Real numberOne
+Declare Real numberTwo
+
+Call getNumberOne(numberOne)
+Call getNumberTwo(numberTwo)
+Call displayResults()
+End Module
+
+
+// Gets the first number from the user.
+Module getNumberOne(Real Ref numberOne)
+Display "Please input the number."
+Input numberOne
+End Module
+
+Module getNumberTwo(Real Ref numberTwo)
+Display "Please input the number."
+Input numberTwo
+End Module
+
+Function Real max(Real numberOne, numberTwo)
+If numberOne > numberTwo then
+	Return numberOne
+Else
+If numberOne < numberTwo then
+	Return numberTwo
+Else
+	Return 0
+End Function
+
+// Displays the largest number.
+Module displayResults()
+If max(numberOne, numberTwo) == 0 then
+	Display "Both numbers are equal."
+Else
+	Display max(numberOne, numberTwo), " is the larger of the two numbers."
+End Module

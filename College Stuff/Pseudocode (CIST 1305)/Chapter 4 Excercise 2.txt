@@ -1,0 +1,39 @@
+// Main module
+Module main()
+// Declare local variables
+Declare Real length1, length2, width1, width2, area1, area2
+
+// Prompts the user to input a year.
+Call getDimensions(length1, length2, width1, width2)
+
+// Runs a calculation to determine if the user inputted year is a leap year.
+Call calculateArea(length1, length2, width1, width2, area1, area2)
+End Module
+
+// A module that asks users to input the dimensions of two rectangles.
+Module getDimensions(Real Ref length1, Ref length2, Ref width1, Ref width2)
+	Display "Please input the length of the first rectangle."
+	Input length1
+	Display "Please input the width of the first rectangle."
+	Input width1
+	Display "Please input the length of the second rectangle."
+	Input length2
+	Display "Please input the width of the second rectangle."
+	Input width2
+End Module
+
+// A module in which it takes the inputted rectangle dimensions, and runs a calculation to determine its' area. Then, it displays the results.
+Module calculateArea(Real length1, length2, width1, width2, Ref area1, Ref area2)
+	Set area1 = length1 * width1
+	Set area2 = length2 * width2
+
+If area1 < area2 Then
+	Display "The second rectangle has a larger area."
+Else
+If area1 > area2 Then
+	Display "The first rectangle has a larger area."
+Else
+	Display "Both rectangles have the same area."
+End If
+End If
+End Module

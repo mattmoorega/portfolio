@@ -1,0 +1,33 @@
+// A program that will convert feet to inches
+
+// Declaring our constants
+Constant Integer FEET_TO_INCH = 12
+
+Module main()
+// Declaring our local variables
+Declare Real feet
+Declare Real totalInches
+
+Call getFeet(feet)
+Set totalInches = feetToInches(feet)
+Call displayResults(feet, inches)
+End Module
+
+
+// Gets the number of feet from the user.
+Module getFeet(Real Ref feet)
+Display "Please input the amount of feet you'd like to convert."
+Input feet
+End Module
+
+Function Real feetToInches(Real feet)
+Declare Real inches
+Set inches = feet * FEET_TO_INCH
+Return inches
+End Function
+
+// Gets the number of feet from the user.
+Module displayResults(Real feet, inches)
+Display feet, "is equivalent to ", inches.
+Input feet
+End Module

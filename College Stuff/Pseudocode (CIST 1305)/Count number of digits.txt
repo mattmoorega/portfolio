@@ -1,0 +1,18 @@
+Declare Integer index
+
+Declare Integer numDigits = 0
+
+For index = 0 To length(str) - 1
+
+  If isDigit( str[index] ) Then
+
+     Set numDigits = numDigits + 1
+
+  End If
+
+End For
+
+Display "The number of digits is ", numDigits
+
+End For
+Display "The number of digits is ", numDigits

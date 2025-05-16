@@ -1,0 +1,20 @@
+// A program used to determine the amount of acres in an amount of square feet inputted by users.
+
+// Declare constants and variables that the program will be working with
+
+Declare Real convertedAcre
+Declare Real sqFeet
+Constant Integer ACRE = 43560
+
+// Get the user to input the amount of square feet
+
+Display "Please input the amount of square feet you'd like to convert to acres."
+Input sqFeet
+
+// Convert the entered data
+
+Set convertedAcre = sqFeet / ACRE
+
+// Display the results
+
+Display "The equivalent of ", sqFeet, " is ", convertedAcre, " acres."

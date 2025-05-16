@@ -1,0 +1,43 @@
+// Main module
+Module main()
+// Declare local variables
+Declare Integer number
+
+// Prompts the user to enter a number within the range of one through ten.
+Call getNumber(number)
+
+// Verifies if the number is in range, and displays the equivalent Roman Numeral if it is.
+Call convertNumber(number)
+
+End Module
+
+// A module in which users of the program inputs the number they wish to convert to roman numerals.
+Module getNumber(Integer Ref number)
+Display "Please input a number from 1 to 10."
+Input number
+End Module
+
+// A module in which we check if the number is between one and ten, then displays the roman numeral equivalent.
+Module convertNumber(number)
+If number == 1 Then
+	Display "1 converted to Roman Numerals is I"
+Else If number == 2 Then
+	Display "2 converted to Roman Numerals is II"
+Else If number == 3 Then
+	Display "3 converted to Roman Numerals is III"
+Else If number == 4 Then
+	Display "4 converted to Roman Numerals is IV"
+Else If number == 5 Then
+	Display "5 converted to Roman Numerals is V"
+Else If number == 6 Then
+	Display "6 converted to Roman Numerals is VI"
+Else If number == 7 Then
+	Display "7 converted to Roman Numerals is VII"
+Else If number == 8 Then
+	Display "8 converted to Roman Numerals is VIII"
+Else If number == 9 Then
+	Display "9 converted to Roman Numerals is IX"
+Else If number == 10 Then
+	Display "10 converted to Roman Numerals is X"
+Else Display "The inputted number is not within the number range"
+End Module

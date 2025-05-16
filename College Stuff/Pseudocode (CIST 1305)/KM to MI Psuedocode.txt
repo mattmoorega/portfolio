@@ -1,0 +1,30 @@
+// Main module
+Module main()
+// Declare local variables
+Declare Real kilometers, miles
+
+// Get distance in Kilometers
+Call getKilometers(kilometers)
+
+// Convert Kilometers to Miles
+Call convertDistance(kilometers, miles)
+
+// Display end results
+Call displayResults(kilometers, miles)
+End Module
+
+// A module in which users of the program inputs the amount of Kilometers they wish to convert to miles.
+Module getKilometers(Real Ref kilometers)
+Display "Please enter the distance in Kilometers that you'd like to convert to miles."
+Input kilometers
+End Module
+
+// A module in which the conversion from Kilometers to Miles take place.
+Module convertDistance(Real kilometers, Ref miles)
+Set miles = kilometers / 0.6214
+End Module
+
+// Our final module, which displays the end results of our calculation.
+Module displayResults(kilometers, miles)
+Display kilometers, " Kilometers is equal to ", miles, " miles."
+End Module

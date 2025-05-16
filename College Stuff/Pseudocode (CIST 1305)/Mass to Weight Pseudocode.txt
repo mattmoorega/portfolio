@@ -1,0 +1,35 @@
+// Main module
+Module main()
+// Declare local variables
+Declare Real mass
+Declare Real weight
+
+// Prompts the user to input a year.
+Call getMass(mass)
+
+// Runs a calculation to determine an object's weight based on a user inputted mass.
+Call determineWeight(mass, weight)
+End Module
+
+// A module that asks users to input an objects mass.
+Module getMass(Real Ref mass)
+	Display "Input an object's mass in newtons that you'd like to calculate the weight of."
+	Input mass
+End Module
+
+// A module in which it takes the inputted mass, and runs a calculation to determine its' weight.
+Module determineWeight(mass, weight)
+
+Constant Real CALC = 9.8
+
+Set weight = mass * CALC
+
+If weight >= 10000 Then
+	Display "The object is too heavy."
+Else
+If weight <= 10 Then
+	Display "The object is too light."
+Else
+	Display "The object's weight in kilograms is ", weight 
+End If
+End Module

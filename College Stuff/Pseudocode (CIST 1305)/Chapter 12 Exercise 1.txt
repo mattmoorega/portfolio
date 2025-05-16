@@ -1,0 +1,27 @@
+// A program that will take one string, then display its' reversed form.
+
+Module main()
+// Declaring our local variables
+Declare String word
+
+Call inputWord(word)
+Call reverseDisplay(word, reversedWord)
+End Module
+
+
+// Gets the original string from the user
+Module getNumberOne(String Ref word)
+Display "Please input the string you'd like to reverse."
+Input word
+End Module
+
+
+// Takes the original string, and reverses it, then displays the results.
+Module reverseDisplay(String word)
+Declare String reversedWord
+Declare Integer index
+For index = length(word) -1 to 0, index--
+Set reversedWord = append(reversedWord.word(i))
+End For
+Display "The reversed string is: ", reversedWord
+End Module

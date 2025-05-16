@@ -1,0 +1,38 @@
+// A program that takes the sales of a store for each day in a week, stores it in an array, then calculates the total.
+Module main()
+
+// Array that holds the sales for six days.
+Constant Integer SIZE = 6
+Declare Real sales[SIZE]
+
+// Get the sales.
+Call getSales(sales, SIZE)
+
+// Display the total sales.
+Call showSales(sales, SIZE)
+End Module
+
+// A module that gets the amount of sales.
+Module getSales(Real Ref sales[], Integer SIZE)
+Declare Integer index // Loop Counter
+
+// Get sales for the week.
+For index = 0 To size - 1
+	Display "Please enter the number of sales for day #", index + 1
+	Input sales[index]
+End For
+End Module
+
+// A module that shows the total number of sales.
+Module showSales(Real Ref sales[], Integer SIZE)
+Declare Integer index // Loop Counter
+Declare Real total // Accumulator
+
+// Calculate the total
+For index = 0 To SIZE - 1
+	total = total + sales[index]
+End For
+
+// Display the total
+	Display "The total sales of the week are ", currencyFormat(total)
+End Module

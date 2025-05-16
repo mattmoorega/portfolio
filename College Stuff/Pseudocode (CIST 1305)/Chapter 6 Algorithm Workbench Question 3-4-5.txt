@@ -1,0 +1,33 @@
+Question 3:
+
+Declare Integer num
+Set num = 4
+
+Declare Integer result
+Set result = cube(num)
+
+// The included function being used.
+Function Integer cube(Integer num)
+	Return num * num * num
+End Function
+
+Question 4:
+
+Declare Integer num
+	Display "Please input a number."
+Input num
+
+Display num, " multiplied by 10 is ", TimesTen(num)
+
+Function TimesTen(Integer num)
+	Return num * 10
+End Function
+
+Question 5:
+
+Function getFirstName(firstName)
+Declare String firstName
+	Display "Please enter your first name."
+	Input firstName
+	Return firstName
+End Function

@@ -1,0 +1,4 @@
+Declare OutputFile nameFile
+Open nameFile "my_name.dat"
+Write nameFile "Matthew"
+Close nameFile

@@ -1,0 +1,20 @@
+// A program that will add up the number of bugs the user has collected within a seven day period.
+
+// Declare the constant needed.	
+Constant Integer DAYS = 7
+
+// Declaring the variables we are using.
+Declare Integer totalBugs
+Set totalBugs = 0
+
+Declare Integer day
+Declare Integer bugs
+
+For day = 1 to DAYS
+	Display "Input the amount of bugs you found on day ", 1
+	Input bugs
+	totalBugs = totalBugs + bugs
+End For
+
+// Displays the total number of bugs a user has collected within 7 days.
+	Display "You've collected ", totalBugs, " bugs within a period of 7 days."

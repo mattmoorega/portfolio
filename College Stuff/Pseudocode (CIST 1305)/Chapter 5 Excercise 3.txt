@@ -1,0 +1,41 @@
+// A program that will help determine if its' user has budgeted enough money for their expenses in a month.
+Module main()
+// Declare local variables
+Declare Real budget
+Declare Real totalExpense
+Set totalExpense = 0
+
+Call getBudget(budget)
+
+Call expensesLoop(totalExpense)
+
+call calcMod(budget, totalExpense)
+End Module
+
+// A module in which users of the program input the budget they have set aside for the month.
+Module getBudget(Real Ref budget)
+	Display "Please input the budget you've set aside for the month."
+	Input budget
+End Module
+
+// A module in which users of the program input their expenses this month.
+Module expensesLoop(Real Ref totalExpense)
+Declare Real expense
+Do
+	Display "Enter a monthly expense amount. (0 to exit)"
+	Input expense
+	totalExpense = totalExpense + expense
+Until expense == 0
+End Module
+
+// The module that runs a calculation and displays the result to the user.
+Module calcMod(budget, totalExpense)
+If totalExpense < budget Then
+	Display "You are under budget, good job!"
+Else
+If totalExpense > budget Then
+	Display "You are over budget, plan better next time!"
+Else
+	Display "You were right on budget, congrats!"
+End If
+End Module
