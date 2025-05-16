@@ -1,4 +1,4 @@
-// Created 04/18/2021
+// Created on 04/18/2021
 // A program that will take one string, then display its' reversed form.
 
 Module main()
