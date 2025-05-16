@@ -1,3 +1,5 @@
+// Created on 03/14/2021
+
 Problem 1
 
 Write a pseudocode declaration for a String array initialized with the following strings:
