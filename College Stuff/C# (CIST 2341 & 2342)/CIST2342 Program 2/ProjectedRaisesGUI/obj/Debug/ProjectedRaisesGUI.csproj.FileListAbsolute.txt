@@ -1,0 +1,11 @@
+C:\Users\mattm\source\repos\ProjectedRaisesGUI\ProjectedRaisesGUI\bin\Debug\ProjectedRaisesGUI.exe.config
+C:\Users\mattm\source\repos\ProjectedRaisesGUI\ProjectedRaisesGUI\bin\Debug\ProjectedRaisesGUI.exe
+C:\Users\mattm\source\repos\ProjectedRaisesGUI\ProjectedRaisesGUI\bin\Debug\ProjectedRaisesGUI.pdb
+C:\Users\mattm\source\repos\ProjectedRaisesGUI\ProjectedRaisesGUI\obj\Debug\ProjectedRaisesGUI.csproj.AssemblyReference.cache
+C:\Users\mattm\source\repos\ProjectedRaisesGUI\ProjectedRaisesGUI\obj\Debug\ProjectedRaisesGUI.csproj.SuggestedBindingRedirects.cache
+C:\Users\mattm\source\repos\ProjectedRaisesGUI\ProjectedRaisesGUI\obj\Debug\ProjectedRaisesGUI.Properties.Resources.resources
+C:\Users\mattm\source\repos\ProjectedRaisesGUI\ProjectedRaisesGUI\obj\Debug\ProjectedRaisesGUI.csproj.GenerateResource.cache
+C:\Users\mattm\source\repos\ProjectedRaisesGUI\ProjectedRaisesGUI\obj\Debug\ProjectedRaisesGUI.csproj.CoreCompileInputs.cache
+C:\Users\mattm\source\repos\ProjectedRaisesGUI\ProjectedRaisesGUI\obj\Debug\ProjectedRaisesGUI.exe
+C:\Users\mattm\source\repos\ProjectedRaisesGUI\ProjectedRaisesGUI\obj\Debug\ProjectedRaisesGUI.pdb
+C:\Users\mattm\source\repos\ProjectedRaisesGUI\ProjectedRaisesGUI\obj\Debug\ProjectedRaisesGUI.SalaryCalculator.resources

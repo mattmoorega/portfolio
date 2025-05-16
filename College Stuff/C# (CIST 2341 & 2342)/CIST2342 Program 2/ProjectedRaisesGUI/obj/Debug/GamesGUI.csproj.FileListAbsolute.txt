@@ -1,0 +1,11 @@
+C:\Users\mattm\source\repos\CIST2342 Program 2\ProjectedRaisesGUI\obj\Debug\GamesGUI.csproj.AssemblyReference.cache
+C:\Users\mattm\source\repos\CIST2342 Program 2\ProjectedRaisesGUI\obj\Debug\GamesGUI.csproj.SuggestedBindingRedirects.cache
+C:\Users\mattm\source\repos\CIST2342 Program 2\ProjectedRaisesGUI\obj\Debug\GamesGUI.GameSizes.resources
+C:\Users\mattm\source\repos\CIST2342 Program 2\ProjectedRaisesGUI\obj\Debug\ProjectedRaisesGUI.Properties.Resources.resources
+C:\Users\mattm\source\repos\CIST2342 Program 2\ProjectedRaisesGUI\obj\Debug\GamesGUI.csproj.GenerateResource.cache
+C:\Users\mattm\source\repos\CIST2342 Program 2\ProjectedRaisesGUI\obj\Debug\GamesGUI.csproj.CoreCompileInputs.cache
+C:\Users\mattm\source\repos\CIST2342 Program 2\ProjectedRaisesGUI\obj\Debug\ProjectedRaisesGUI.exe
+C:\Users\mattm\source\repos\CIST2342 Program 2\ProjectedRaisesGUI\obj\Debug\ProjectedRaisesGUI.pdb
+C:\Users\mattm\source\repos\CIST2342 Program 2\ProjectedRaisesGUI\bin\Debug\ProjectedRaisesGUI.exe.config
+C:\Users\mattm\source\repos\CIST2342 Program 2\ProjectedRaisesGUI\bin\Debug\ProjectedRaisesGUI.exe
+C:\Users\mattm\source\repos\CIST2342 Program 2\ProjectedRaisesGUI\bin\Debug\ProjectedRaisesGUI.pdb
