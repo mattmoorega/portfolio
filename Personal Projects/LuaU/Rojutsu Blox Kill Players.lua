@@ -1,3 +1,5 @@
+-- Created on 06/25/2021
+
 local player = game.Players.LocalPlayer.Name
 _G.farm = true
 while _G.farm and game:GetService("RunService").Stepped:wait() do
