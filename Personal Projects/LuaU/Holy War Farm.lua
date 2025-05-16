@@ -1,3 +1,5 @@
+-- Created on 06/26/2021
+
 _G.farm = true
 while _G.farm and game:GetService("RunService").Stepped:wait() do
 local success, err = pcall(function()
