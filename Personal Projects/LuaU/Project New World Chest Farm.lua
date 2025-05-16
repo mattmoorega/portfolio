@@ -1,3 +1,5 @@
+-- Created on 06/10/2021
+
 if not game:IsLoaded() then game.Loaded:Wait() end
 if game.PlaceId == (6110371797) then
     _G.farm = true
