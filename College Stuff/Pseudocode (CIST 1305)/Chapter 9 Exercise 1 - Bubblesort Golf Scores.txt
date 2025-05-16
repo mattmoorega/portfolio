@@ -1,3 +1,4 @@
+// Created on 03/18/2021
 // A program that takes 10 golf scores and stores them in an Integer array sorted in ascending order.
 Module main()
 Constant Integer SIZE = 10
