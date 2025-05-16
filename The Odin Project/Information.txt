@@ -1,0 +1,2 @@
+I plan on working through both the JavaScript & Ruby paths of TOP eventually.
+This will be to help reiterate things I've already learned to hone my skills.
