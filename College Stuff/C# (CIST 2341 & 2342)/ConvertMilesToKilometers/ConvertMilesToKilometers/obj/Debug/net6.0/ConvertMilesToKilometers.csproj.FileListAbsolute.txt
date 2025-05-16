@@ -1,0 +1,15 @@
+C:\Users\mattm\source\repos\ConvertMilesToKilometers\ConvertMilesToKilometers\bin\Debug\net6.0\ConvertMilesToKilometers.exe
+C:\Users\mattm\source\repos\ConvertMilesToKilometers\ConvertMilesToKilometers\bin\Debug\net6.0\ConvertMilesToKilometers.deps.json
+C:\Users\mattm\source\repos\ConvertMilesToKilometers\ConvertMilesToKilometers\bin\Debug\net6.0\ConvertMilesToKilometers.runtimeconfig.json
+C:\Users\mattm\source\repos\ConvertMilesToKilometers\ConvertMilesToKilometers\bin\Debug\net6.0\ConvertMilesToKilometers.dll
+C:\Users\mattm\source\repos\ConvertMilesToKilometers\ConvertMilesToKilometers\bin\Debug\net6.0\ConvertMilesToKilometers.pdb
+C:\Users\mattm\source\repos\ConvertMilesToKilometers\ConvertMilesToKilometers\obj\Debug\net6.0\ConvertMilesToKilometers.csproj.AssemblyReference.cache
+C:\Users\mattm\source\repos\ConvertMilesToKilometers\ConvertMilesToKilometers\obj\Debug\net6.0\ConvertMilesToKilometers.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mattm\source\repos\ConvertMilesToKilometers\ConvertMilesToKilometers\obj\Debug\net6.0\ConvertMilesToKilometers.AssemblyInfoInputs.cache
+C:\Users\mattm\source\repos\ConvertMilesToKilometers\ConvertMilesToKilometers\obj\Debug\net6.0\ConvertMilesToKilometers.AssemblyInfo.cs
+C:\Users\mattm\source\repos\ConvertMilesToKilometers\ConvertMilesToKilometers\obj\Debug\net6.0\ConvertMilesToKilometers.csproj.CoreCompileInputs.cache
+C:\Users\mattm\source\repos\ConvertMilesToKilometers\ConvertMilesToKilometers\obj\Debug\net6.0\ConvertMilesToKilometers.dll
+C:\Users\mattm\source\repos\ConvertMilesToKilometers\ConvertMilesToKilometers\obj\Debug\net6.0\refint\ConvertMilesToKilometers.dll
+C:\Users\mattm\source\repos\ConvertMilesToKilometers\ConvertMilesToKilometers\obj\Debug\net6.0\ConvertMilesToKilometers.pdb
+C:\Users\mattm\source\repos\ConvertMilesToKilometers\ConvertMilesToKilometers\obj\Debug\net6.0\ConvertMilesToKilometers.genruntimeconfig.cache
+C:\Users\mattm\source\repos\ConvertMilesToKilometers\ConvertMilesToKilometers\obj\Debug\net6.0\ref\ConvertMilesToKilometers.dll
