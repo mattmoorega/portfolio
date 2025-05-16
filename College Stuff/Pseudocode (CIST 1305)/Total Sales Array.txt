@@ -1,3 +1,4 @@
+// Created on 03/25/2021
 // A program that takes the sales of a store for each day in a week, stores it in an array, then calculates the total.
 Module main()
 
