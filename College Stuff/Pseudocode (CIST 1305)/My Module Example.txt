@@ -1,3 +1,4 @@
+// Created on 02/04/2021
 // Global Variables
 Constant Real COUNTY_TAX = 0.02
 Constant Real STATE_TAX = 0.04
